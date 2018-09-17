@@ -32,8 +32,8 @@ carla.bello@ieu.uzh.ch
 
 &nbsp;   | &nbsp; | &nbsp;
 -------- | --- | --- 
-9.30 - 13.00 | **RNA-seq** <br /> [Presentation](RNAseq/RNAseq.pdf) \| [Hands-on](RNAseq/Exercises_RNAseq.pdf) | CB
-? - ? | *Talk:* Dr. Charlotte Soneson (UZH):  [pdf](TALKS/.pdf) |
+9.30 - 12.00 | **RNA-seq** <br /> [Presentation](RNAseq/RNAseq.pdf) \| [Hands-on](RNAseq/Exercises_RNAseq.pdf) | CB
+12.00 - 13.00 | *Talk:* Dr. Charlotte Soneson (UZH):  [pdf](TALKS/.pdf) |
 &nbsp; | &nbsp; | &nbsp; 
 14.00 - 15.00 | *Talk:* Dr. Jean-Claude Walser (ETH): RNA-seq in ecology and evolutionary biology [pdf](TALKS/RNAseq_Walser.pdf) | 
 15.00 - 17.30 | **Making sense of gene lists** <br /> [Presentation](GENE_LISTS/MakingSenseOfGeneLists.pdf)  \| [Hands-on](GENE_LISTS/Exercises_MakingSenseOfGeneLists.md) | SW
@@ -89,6 +89,28 @@ We will reuse the Virtual Machine (VM) of the Linux course BIO609 and NGS course
 - Run VirtualBox and do `File | Import Appliance` from the menu. Choose the VM image you just downloaded (file with extension .OVA). This will trigger a menu where you can change the Appliance settings. We recommend giving the VM as much memory as you can given your local machine (about 2/3 of the total memory, but between 2-4 GB). Start the import process.
 
 Now you can start the VM by selecting it in the list and clicking on the Start button. Login and proceed with the instructions 
+
+### Copy/paste doesn't work in the command window
+
+To copy, select text and click the title bar and go to Edit->Copy. You can use Edit->Paste to paste.  
+  
+  
+The usual shortcuts for copy/paste don't work in the virtual machine. For Macs use ctrl+shift+C for copying and ctrl+shift+v for pasting.  
+  
+You can also setup shared folders between the VM and the host system. See below or ask us how to do it.
+
+### Adding Shared Folders
+
+It is possible to share data (read/write/copy files) between Virtual Machine and your host operating system (e.g. Mac OS or Windows). By default no access is granted, we have to configure it: 
+
+1. Share a folder in your operating system  
+   With a running VM go to the menu of the VirtualBox software `Devices | Shared Folder Settings…` and add 1 or multiple folders
+2. In Ubuntu VM, go to the terminal and type:  
+`usermod -aG vboxsf student`           
+ (student is our username)
+3. Reboot the VM
+
+On Ubuntu the shared folder is located in the path `/media`
 
 
 ## Recommended books (Practical Computing Skills)
