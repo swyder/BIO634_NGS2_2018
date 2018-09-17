@@ -95,8 +95,6 @@ java -Xmx1g -jar $GATK -T UnifiedGenotyper \
     -I ${BAM_FILE%%.bam}_realigned.bam \
     -ploidy 1 \
     -glm BOTH \
-    -stand_call_conf 30 \
-    -stand_emit_conf 10 \
     -mbq 10 \
     -o raw_variants_UG.vcf
 
@@ -106,7 +104,5 @@ java -Xmx1g -jar $GATK -T HaplotypeCaller \
     -I ${BAM_FILE%%.bam}_realigned.bam \
     --genotyping_mode DISCOVERY \
     -ploidy 1 \
-    -stand_call_conf 30 \
-    -stand_emit_conf 10 \
     -o raw_variants_HC.vcf
     # -L 20

@@ -210,6 +210,15 @@ In contrast, for GATK it is recommended to use all 3 BAM preprocessing steps. Le
 - GATK is under constant development. Check the website from time to time.
 
 
+### Installing Oracle Java
+
+GATK doesn't work with JDK Java - it requires Oracle Java
+```
+sudo add-apt-repository ppa:webupd8team/java
+sudo apt-get install oracle-java8-installer
+sudo update-alternatives --config java
+Select Oracle Java from the list
+```
 
 
 The following script `Run_GATK_Ecoli.sh` runs a GATK pipeline for the *E.coli* BAM file. Change the variable BAMFILE if you have renamed the BAM file earlier.
