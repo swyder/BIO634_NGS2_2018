@@ -21,7 +21,7 @@ carla.bello@ieu.uzh.ch
 &nbsp;   | &nbsp; | &nbsp;
 -------- | --- | --- 
 9.30 - 9.40 | **Welcome & Introduction** | SW&CB
-9.40 - 12.30 | **QC and Mapping** | CB
+9.40 - 12.30 | **QC and Mapping** <br /> [Presentation]() \| [Hands-on]|(https://github.com/carlalbc/BIO694_2018/blob/master/Day1_DataQC_and_mapping.md) CB
 &nbsp; | &nbsp; | &nbsp;
 13.30 - 15.45 | **Variant Calling 2** <br /> [Presentation](VARIANT_CALLING/Variant_Calling2.pdf)  \| [Hands-on](VARIANT_CALLING/Exercises_Variant_Calling.md) | SW
 16.00 - 17.30 | *Talk:* Dr. Martin Fischer (ETH): Detection of the genomic signature of selection [pdf](TALKS/NGS_Selection_Fischer.pdf) |
@@ -32,7 +32,7 @@ carla.bello@ieu.uzh.ch
 
 &nbsp;   | &nbsp; | &nbsp;
 -------- | --- | --- 
-9.30 - 12.00 | **RNA-seq** <br /> [Presentation](RNAseq/RNAseq.pdf) \| [Hands-on](RNAseq/Exercises_RNAseq.pdf) | CB
+9.30 - 12.00 | **RNA-seq** <br /> [Presentation](RNAseq/RNAseq.pdf) \| [Hands-on](https://github.com/carlalbc/BIO694_2018/blob/master/Day2_RNAseq.md) | CB
 12.00 - 13.00 | *Talk:* Dr. Charlotte Soneson (UZH):  [pdf](TALKS/.pdf) |
 &nbsp; | &nbsp; | &nbsp; 
 14.00 - 15.00 | *Talk:* Dr. Jean-Claude Walser (ETH): RNA-seq in ecology and evolutionary biology [pdf](TALKS/RNAseq_Walser.pdf) | 
@@ -55,9 +55,10 @@ or attendance of 'BIO609 Introduction to Linux and Bash Scripting' and
 
 |--HOME--|
       ├─APPL
-           ├── IGV_2.3.52/
-           ├── freebayes/
-           ├── picard-tools-1.130/
+           ├── IGV/...
+           ├── FREEBAYES/...
+           ├── PICARD/...
+           ├── GATK/...
       ├─NGS2
 	   ├─RNA-Seq
 	   ├─VariantCalling2

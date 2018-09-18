@@ -42,7 +42,7 @@ We will identify short variants relative to the genome of the ***E.coli* DB10 st
 
 FreeBayes expects a cleaned BAM file as input with marked duplicates. It calls variants for any number of individuals of a population, we can combine data from multiple individuals into a single BAM by attaching Read Group (RG) to the alignments.
 
-As we will freebayes a lot, let us first put a soft link so that we don't have to write the path (we could also add the directory containing freebayes to the PATH):
+How we can get information about freebayes options:
 ```
 freebayes --help
 ```
