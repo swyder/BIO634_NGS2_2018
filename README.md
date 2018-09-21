@@ -21,7 +21,7 @@ carla.bello@ieu.uzh.ch
 &nbsp;   | &nbsp; | &nbsp;
 -------- | --- | --- 
 9.30 - 9.40 | **Welcome & Introduction** | SW&CB
-9.40 - 12.30 | **QC and Mapping** <br /> [Presentation](QC_MAPPING/) \| [Hands-on](https://github.com/carlalbc/BIO634_2018/blob/master/Day1_DataQC_and_mapping.md) | CB
+9.40 - 12.30 | **QC and Mapping** <br /> [Presentation](QC_MAPPING/QC_and_mapping.pdf) \| [Hands-on](https://github.com/carlalbc/BIO634_2018/blob/master/Day1_DataQC_and_mapping.md) | CB
 &nbsp; | &nbsp; | &nbsp;
 13.30 - 15.45 | **Variant Calling 2** <br /> [Presentation](VARIANT_CALLING/Variant_Calling2.pdf)  \| [Hands-on](VARIANT_CALLING/Exercises_Variant_Calling.md) | SW
 16.00 - 17.30 | *Talk:* Dr. Martin Fischer (ETH): Detection of the genomic signature of selection [pdf](TALKS/NGS_Selection_Fischer.pdf) |
